@@ -17,8 +17,8 @@
                 },
                 {
                     "project_imgs": [
-                        "/images/project1_image_1.png",
-                        "/images/project1_image_2.png"
+                        "/images/project1_image1.png",
+                        "/images/project1_image2.png"
                     ]
                 }
             ]
@@ -40,8 +40,7 @@
                 },
                 {
                     "project_imgs": [
-                        "/images/project2_1page.png",
-                        "/images/project2_2page.png"
+                        "/images/project2_main.png"
                     ]
                 }
             ]
@@ -64,9 +63,7 @@
                 },
                 {
                     "project_imgs": [
-                        "/images/project3_allvalidations.png",
-                        "/images/project3_formselection.png",
-                        "/images/project3_realtimevalidation.png"
+                        "/images/project3_main.png"
                     ] 
                 }
             ]
@@ -80,18 +77,15 @@
                 "HTML",
                 "CSS"
             ],
-            "live_link": "https://jmski.github.io/connect-four-game",
-            "github_link": "https://github.com/jmski/connect-four-game",
+            "live_link": "https://jmski.github.io/oop-game-show-app/",
+            "github_link": "https://github.com/jmski/oop-game-show-app",
             "image_urls": [
                 {
                     "main": "/images/project4_main.png"
                 },
                 {
                     "project_imgs": [
-                        "/images/project4_blankgame.png",
-                        "/images/project4_duringgame.png",
-                        "/images/project4_winscreen.png",
-                        "/images/project4_loosescreen.png"
+                        "/images/project4_main.png"
                     ]
                 }
             ]
@@ -113,9 +107,51 @@
                 },
                 {
                     "project_imgs": [
-                        "/images/project5_gallerysearch.png",
-                        "/images/project5_modal.png",
-                        "/images/project5_noresultssearch.png"
+                        "/images/project5_main.png"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "project_name": "Discord Bot Website Scrapper",
+            "description": "This application makes an API call to the poring.world website. This gets in-game information and is displayed on discord.",
+            "technologies": [
+                "JavaScript",
+                "Node.js",
+                "Discord"
+            ],
+            "live_link": "https://discord.gg/XKBGx3By9w",
+            "github_link": "https://github.com/jmski/discord-bot-poringworld-scrapper",
+            "image_urls": [
+                {
+                    "main": "/images/project6_main.png"
+                },
+                {
+                    "project_imgs": [
+                        "/images/project6_main.png"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "project_name": "Discord Bot Event Organizer",
+            "description": "This application makes an API call to the poring.world website. This gets in-game information and is displayed on discord.",
+            "technologies": [
+                "JavaScript",
+                "Node.js",
+                "Discord"
+            ],
+            "live_link": "https://discord.gg/XKBGx3By9w",
+            "github_link": "https://github.com/jmski/discord-bot-daily-event-organizer",
+            "image_urls": [
+                {
+                    "main": "/images/project7_main.png"
+                },
+                {
+                    "project_imgs": [
+                        "/images/project7_main.png"
                     ]
                 }
             ]

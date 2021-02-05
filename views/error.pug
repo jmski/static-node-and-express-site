@@ -1,10 +1,11 @@
 extends layout.pug
 
 block content
-    h1.error-text-center=`${error.message}`
-    img.panda-img(src="/images/panda_error.jpg") 
     br
-    p.error-text-center See below for the scary details.
-    h2=`Status: ${error.status}`
+    h1.error-text-center=`${error.message}`
+    img.error-img(src="/images/404_error.png") 
+    br
+    p.error-text-center Error details:
+    h2.error-text-status=`Status: ${error.status}`
         br
-        p=`Stack: ${error.stack}`
+        p.error-text-stack=`Stack: ${error.stack}`

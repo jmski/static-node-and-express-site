@@ -14,5 +14,5 @@ router.get('/about', (req, res) => {
     res.render('about');
 });
 
-//This allows us to export and use in app.js | Keep at bottom
+//This allows us to export and use in app.js
 module.exports = router;

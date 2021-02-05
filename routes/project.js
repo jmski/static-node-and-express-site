@@ -28,5 +28,5 @@ router.get('/:id', (req, res) => {
     });
 });
 
-//This allows us to export and use in app.js | Keep at bottom
+//This allows us to export and use in app.js
 module.exports = router;

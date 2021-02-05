@@ -10,6 +10,9 @@ router.all('*', (req, res, next) => {
         if (req.url === `/project/${project.id}`) {
             return next();
         }
+        if(req.url === `/project/about`) {
+            res.redirect('/about');
+        }
     });
     const err = new Error('Page not found!');
     err.status = 404;
@@ -23,5 +26,5 @@ router.use((err, req, res, next) => {
     res.render('error');
 });
 
-//This allows us to export and use in app.js | Keep at bottom
+//This allows us to export and use in app.js 
 module.exports = router;
