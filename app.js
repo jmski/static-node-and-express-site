@@ -10,7 +10,7 @@ const app = express();
 
 // view engine setup
 app.set('view engine', 'pug');
-app.use(bodyParser.urlencoded( {extending: false} ));
+app.use(bodyParser.urlencoded( {extended: false} ));
 
 app.use('/static', express.static('public'));
 app.use('/images', express.static('img'));

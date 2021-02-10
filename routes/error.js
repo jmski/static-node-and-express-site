@@ -1,9 +1,7 @@
-
 const express = require('express');
 const router = express.Router();
-const {projects} = require('../data.json');
+const {projects} = require('../data/data.json');
 
-//this makes it so that any route that is not defined will pass through a defined error.
 router.all('*', (req, res, next) => {
     const projectsArray = Object.values(projects);
     projectsArray.forEach( project => {
@@ -20,11 +18,9 @@ router.all('*', (req, res, next) => {
     next(err);
 });
 
-//renders the error pug template when an error passes through.
 router.use((err, req, res, next) => {
     res.locals.error = err;
-    res.render('error');
+    res.render('page-not-found');
 });
 
-//This allows us to export and use in app.js 
 module.exports = router;
