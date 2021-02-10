@@ -12,8 +12,10 @@ const app = express();
 app.set('view engine', 'pug');
 app.use(bodyParser.urlencoded( {extended: false} ));
 
+// set to static
 app.use('/static', express.static('public'));
 app.use('/images', express.static('img'));
+
 app.use(routes);
 app.use(errorHandler);
 app.use('/project', projects);

@@ -1,13 +1,21 @@
 const express = require('express');
-const router = express.Router();
+const app = express.Router();
 const {projects} = require('../data/data.json');
 
-router.get('/', (req, res) => {
+app.get('/', (req, res) => {
     res.render('index', { projects });
 });
 
-router.get('/about', (req, res) => {
+app.get('/about', (req, res) => {
     res.render('about');
 });
 
-module.exports = router;
+app.get('/page-not-found', (req, res) => {
+    res.render('page-not-found');
+});
+
+app.get('/error', (req, res) => {
+    res.render('error');
+});
+
+module.exports = app;

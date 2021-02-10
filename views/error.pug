@@ -1,4 +1,6 @@
 extends layout.pug
 
-block content 
-    h1.error-text-center=`${errorMessage}`
+block content
+  nav.grid.container.portfolio-breadcrumb
+		a(href='/') Go Back
+			h1=`There was a problem - ${error.status} ${error.message}`

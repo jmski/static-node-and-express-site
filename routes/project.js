@@ -1,12 +1,12 @@
 const express = require('express');
-const router = express.Router();
+const app = express.Router();
 const {projects} = require('../data/data.json');
 
-router.get('/', (req, res) => {
+app.get('/', (req, res) => {
     res.redirect('/');
 });
 
-router.get('/:id', (req, res) => {
+app.get('/:id', (req, res) => {
     const {id} = req.params;
     const projectsArray = Object.values(projects);
     projectsArray.forEach( project => {
@@ -20,8 +20,8 @@ router.get('/:id', (req, res) => {
                 image_urls: project.image_urls
             };
             res.render('project', currentProject);
-        }
+        } 
     });
 });
 
-module.exports = router;
+module.exports = app;
