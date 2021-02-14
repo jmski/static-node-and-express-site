@@ -1,1 +1,2 @@
-# static-node-and-express-site
+# techdegree-project-6
+Static Node.js and Express Site
