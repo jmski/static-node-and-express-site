@@ -21,18 +21,19 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
-  background: #3c3c3c;
+  background: #001a33;
+  background: #00264d;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
 
 article {
-  background: #fefefe;
+  background: #001a33;
 }
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: white;
 }
 
 h5{
@@ -47,11 +48,12 @@ h6{
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
   font-weight: 600;
+  color: white;
 }
 
 p{
   font-size: 15px;
-  color: #666;
+  color: #ccc;
 }
 
 a {
@@ -63,7 +65,7 @@ a {
   min-width: 320px;
   height: 100%;
   min-height: 100%;
-  background: #fefefe;
+  background: #001a33;
 }
 
 .flex-row-wrap {
@@ -82,8 +84,8 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background: #fefefe;
-  border-bottom: 1px solid #eaeaea;
+  background: #001a33;
+  border-bottom: 1px solid #ccc;
 }
 
 .box h1,
@@ -99,6 +101,7 @@ a {
 
 .box li {
   font-size: 13px;
+  color: #ccc;
 }
 
 
@@ -119,9 +122,10 @@ nav a {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555; 
+  color: white; 
 }
 
+/*Arrows*/
 nav a span {
   font-weight: bold;
   font-size: 1.25rem;
@@ -142,7 +146,7 @@ nav a:hover {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #3c3c3c;
+  background: #00264d;
 }
 
 .sidebar-info-box {
@@ -221,8 +225,8 @@ nav a:hover {
   background: #0a0a0a;
   margin-top: 3px;
   margin-right: 10px;
-  border-top: 2px solid #fefefe;
-  border-bottom: 2px solid #fefefe;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
 }
 
 .header button:after {
@@ -245,28 +249,29 @@ nav a:hover {
 }
 
 .portfolio-intro h1 {
-  font-size: 1.5rem;
-  color: #0a0a0a;
-  margin: 0 auto 8px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto 8px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-transform: uppercase;
 }
 
 .portfolio-intro p {
   text-rendering: optimizeLegibility;
   font-size: 125%;
   margin: 0 auto;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #eaeaea;
+  color: #ccc;
 }
 
 /*Project*/
 .projects-box h5 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 13px;
-  letter-spacing: 2.25px;
+  letter-spacing: 2.0px;
   text-transform: uppercase;
-  color: #222;;
+  color: white;
   margin: 0 auto 8px;
+  text-align: center;
 }
 
 .cell a {
@@ -320,7 +325,7 @@ nav a:hover {
   max-width: 255px;
   margin: auto 0 5px 0;
   padding: 0.85em 1em;
-  background-color: #333;
+  background-color: orangered;
   border: 1px solid transparent;
 }
 
