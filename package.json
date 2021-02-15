@@ -1,28 +1,27 @@
 {
-  "name": "portfolio",
+  "name": "techdegree-project-6",
   "version": "1.0.0",
-  "description": "jon-michael portfolio website",
+  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmski/static-node-and-express-site.git"
+    "url": "git+https://github.com/jmski/jmg-portfolio.git"
   },
-  "author": "jon-michael gelua",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jmski/static-node-and-express-site/issues"
+    "url": "https://github.com/jmski/jmg-portfolio/issues"
   },
-  "homepage": "https://github.com/jmski/static-node-and-express-site#readme",
+  "homepage": "https://github.com/jmski/jmg-portfolio#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "nodemon": "^2.0.7",
     "pug": "^3.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
   }
 }

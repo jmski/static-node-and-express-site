@@ -1,44 +1,41 @@
 extends layout.pug
 
-block content 
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
-  article.grid-container.portfolio-intro.portfolio-project
-    .grid-x
-      .cell.small-6.medium-9.large-9
+block content
 
-        h1 JON-MICHAEL GELUA
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
 
-        p.lead.text-light
-          | Full Stack JavaScript Developer.
-
-        .portfolio-bio
-          p
-            | Self taught
-            | Teamtreehouse Student
-            | Most def
-      .cell.portfolio-meta.small-6.medium-2.large-3
+  article.portfolio-about
+    .inner-wrapper.flex-row-wrap.two-col
+      .about-intro-box.box
+        h1 Jon-Michael Gelua
+        p Full Stack Developer / Indie Game Developer
+        .about-bio
+          p I spend most of my time building weird gadgets, playing video games with my kids and learning kpop dances for my wife. 
+      .skills-contact-box.box
         h6 Skills
-
         ul
           li HTML
           li CSS
           li JavaScript
+          li Git
           li Node.js
           li Express
-          li Graphic Design
+          li Fetch APIs
+          li OOP
           li Discord
-
+          li C#
+          li Unity
         h6 Contact Info
-
         ul
-          li 647-905-1667
-          li geluajm@email.com
-
-        a.button.expanded(href='https://linkedin.com/in/jmgelua' target='_blank') LinkedIn
-        a.button.expanded(href='https://github.com/jmski' target='_blank') GitHub
-        a.button.expanded(href='https://teamtreehouse.com/jonmichaelgelua' target='_blank') TeamTreehouse
-        a.button.expanded(href='https://www.youtube.com/channel/UCkZ9kwK7P9Qr7BYXiqWbEnQ' target='_blank') YouTube
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
-  
+          li 647.834.1667
+          li jmgelua@gmail.com
+        a.btn-link(href='https://www.linkedin.com/in/jmgelua/' target="_blank") LinkedIn
+        a.btn-link(href='https://github.com/jmski' target="_blank") GitHub
+        a.btn-link(href='https://teamtreehouse.com/jonmichaelgelua' target="_blank") Team Treehouse
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

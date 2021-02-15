@@ -1,20 +1,17 @@
 extends layout.pug
 
-block content 
-  article.grid-container.portfolio-intro
-    div
+block content
 
+  article.portfolio-intro
 
-      h1 My Recent Projects
-
-      p.lead.text-light
-        | in the last 12 months
-  article.grid-container.portfolio-index
     
-    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
-  
-      each project in projects
+    h1 Project Gallery
+    p Recent projects created in the last 12 months
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in projects  
         .cell
-          a(href=`./project/${project.id}`)
-            img.thumbnail(src=`${project.image_urls[0].main}`)
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=`${project.images_thumbnail}`, alt= `Thumbnail of ${project.project_name} Project`)
             h5= project.project_name
+
