@@ -1,25 +1,24 @@
 {
-  "name": "techdegree-project-6",
+  "name": "static-node-and-express-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Static Node.js and Express Site",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node":"12.13.1"
+    "node": "12.13.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmski/jmg-portfolio.git"
+    "url": "git+https://github.com/jmski/static-node-and-express-site.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jmski/jmg-portfolio/issues"
+    "url": "https://github.com/jmski/static-node-and-express-site/issues"
   },
-  "homepage": "https://github.com/jmski/jmg-portfolio#readme",
+  "homepage": "https://github.com/jmski/static-node-and-express-site#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
