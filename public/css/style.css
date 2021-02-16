@@ -243,18 +243,18 @@ nav a:hover {
 /*
   Home page styles
 */
+
 .portfolio-intro {
   max-width: 1200px;
   padding: 40px 50px 30px;
 }
 
-.portfolio-banner {
-  max-width: 1200px;
+.portfolio-intro img {
   width: 100%;
   height: auto;
   border-bottom: 3px solid #ff578a;
-  padding:40px 50px 30px;
 }
+
 
 .portfolio-intro h1 {
     padding-top: 60px;
@@ -307,6 +307,11 @@ nav a:hover {
   font-size: 125%;
 }
 
+.about-intro-box img {
+  width: 100%;
+  height: auto;
+}
+
 .about-bio p {
   font-size: 15px;
   padding-top: 40px;
@@ -350,7 +355,7 @@ nav a:hover {
     font-size: 1.25rem;
   }
 
-  .portfolio-banner {
+  .portfolio-banner img {
     max-width: 100%;
     height: auto;
   }
