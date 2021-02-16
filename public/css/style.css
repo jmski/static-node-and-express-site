@@ -249,8 +249,11 @@ nav a:hover {
 }
 
 .portfolio-banner {
+  max-width: 1200px;
   width: 100%;
   height: auto;
+  border-bottom: 3px solid #ff578a;
+  padding:40px 50px 30px;
 }
 
 .portfolio-intro h1 {
@@ -347,6 +350,11 @@ nav a:hover {
     font-size: 1.25rem;
   }
 
+  .portfolio-banner {
+    max-width: 100%;
+    height: auto;
+  }
+
   .portfolio-intro h1 {
     font-size: 3rem;
   }
@@ -389,6 +397,11 @@ nav a:hover {
 
   .header {
     display: none;
+  }
+
+  .portfolio-banner {
+    max-width: 100%;
+    height: auto;
   }
 
   .wrapper {
