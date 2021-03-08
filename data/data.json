@@ -2,11 +2,11 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Connect Four", 
-            "description": "Object-oriented interactive game.",
-            "technologies": [ "HTML", "CSS", "JavaScript" ],
-            "live_link": "https://jmski.github.io/connect-four-game",
-            "github_link": "https://github.com/jmski/connect-four-game",
+            "project_name": "React Gallery App", 
+            "description": "Gallery app made using React that uses Flickr API",
+            "technologies": [ "HTML", "CSS", "JavaScript", "React" ],
+            "live_link": "https://jmg-react-gallery-app.netlify.app/",
+            "github_link": "https://github.com/jmski/react-gallery-app",
             "images_thumbnail": "/static/images/project0_main.png",
             "images_urls": [ "/static/images/project0_main.png" ]
         },
@@ -79,6 +79,15 @@
             "github_link": "https://github.com/jmski/discord-bot-daily-event-organizer",
             "images_thumbnail": "/static/images/project7_main.png",
             "images_urls": [ "/static/images/project7_main.png" ]
+        },        {
+            "id": 8,
+            "project_name": "Connect Four", 
+            "description": "Object-oriented interactive game.",
+            "technologies": [ "HTML", "CSS", "JavaScript" ],
+            "live_link": "https://jmski.github.io/connect-four-game",
+            "github_link": "https://github.com/jmski/connect-four-game",
+            "images_thumbnail": "/static/images/project8_main.png",
+            "images_urls": [ "/static/images/project8_main.png" ]
         }
     ]
 }
